@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(img/f.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: rgb(35, 34, 34);
+    color: rgb(27, 24, 24);
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 6px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: white;
+}
+
+.section-contact {
+    padding: 80px 40px;
+}
+
+/* layout geral */
+.contact-layout {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.contact-info {
+    flex: 1;
+}
+
+.contact-info h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* grid contatos */
+.contact-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    max-width: 500px;
+}
+
+/* card */
+.contact-card {
+    background: rgb(245, 241, 223);
+    padding: 25px 20px;
+    border-radius: 8px;
+    box-shadow: 0 10px 18px rgb(0, 0, 0);
+    transition: 0.3s;
+    text-align: center;
+}
+
+.contact-card:hover {
+    transform: translateY(-6px);
+}
+
+.icon-circle {
+    width: 55px;
+    height: 55px;
+    background: #373a43;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 15px;
+    color: white;
+    font-size: 25px;
+}
+
+.contact-card h3 {
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+.contact-card p {
+    color: #6e6565;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+/* imagem direita */
+.contact-image {
+    flex: 1;
+
+}
+
+.contact-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#mensagem {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 20px;
+    color: white;
+}

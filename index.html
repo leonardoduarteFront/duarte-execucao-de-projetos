@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Claudio Duarte</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <section class="section-contact">
+
+        <div class="contact-layout">
+
+            <div class="contact-info">
+
+                <h2>Entre em Contato</h2>
+
+                <div class="contact-container">
+
+                    <a href="tel:+5553981553088" class="contact-card">
+                        <div class="icon-circle">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <h3>Telefone</h3>
+                        <p>(53) 98155-3088</p>
+                    </a>
+
+                    <a href="https://www.instagram.com/duarte_execucao_de_projetos/" target="_blank"
+                        class="contact-card">
+                        <div class="icon-circle">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                        <h3>Instagram</h3>
+                    </a>
+
+                    <a href="mailto:contato@email.com" class="contact-card">
+                        <div class="icon-circle">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <h3>Serviços</h3>
+                        <p>contato@email.com</p>
+                    </a>
+
+                    <a href="https://wa.me/5553981553088" target="_blank" class="contact-card">
+                        <div class="icon-circle">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </div>
+                        <h3>WhatsApp</h3>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- IMAGEM -->
+            <div class="contact-image">
+                <img src="img/LogoDuarte.png" alt="Imagem de contato">
+            </div>
+
+        </div>
+
+    </section>
+    <div id="mensagem"></div>
+    <script>
+        var nome = prompt("Olá, qual é o seu nome?");
+        document.getElementById("mensagem").innerHTML = "Bem vindo(a), " + nome;
+    </script>
+
+</body>
+
+</html>
